@@ -15,13 +15,23 @@ p {
   width: 350px; /* Adjust width as needed */
   max-width: 100%;
 }
+header, footer {
+  padding: 5px 0; /* Adjust these values as needed */
+  margin-top: 0;
+}
+.section {
+  padding: 10px 0; /* Try lower values here */
+}
+.image-grid div {
+  margin: 5px; /* Adjust to decrease space between images */
+}
 
 .line {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* Full viewport height */
+  height: auto; /* Full viewport height */
 }
 .logo {
   display: block;
