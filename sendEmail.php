@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Your email address where the message will be sent
-    $to = "redemptionstudio107@gmail.com", "simbarashetapererwa@gmail.com";
+    $to = "redemptionstudio107@gmail.com, simbarashetapererwa@gmail.com";
 
     // Email headers
     $headers = "From: " . $email . "\r\n" .
