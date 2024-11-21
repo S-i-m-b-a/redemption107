@@ -5,6 +5,27 @@
  * Free to use under the MIT license.
 */
 /* Tabs */
+.footer-social {
+  padding: 1px 0; /* Reduce padding */
+}
+
+.footer-social i {
+  font-size: 16px; /* Reduce social media icon size */
+}
+
+.section-small-padding {
+  padding: 5px 0; /* Minimize padding for footer sections */
+}
+
+.text-size-16 {
+  font-size: 10px; /* Adjust text size for smaller appearance */
+}
+
+.text-size-14 {
+  font-size: 12px; /* Reduce contact details text size */
+}
+
+
 .tab-item {
   background: none repeat scroll 0 0 #fff;
   display: none;
